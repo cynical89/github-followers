@@ -1,4 +1,4 @@
-# Github-Followers
+# :collision: Github-Followers
 A test using github's api to get followers, and people you follow from github, and to compare them
 
 ## Prerequisites
