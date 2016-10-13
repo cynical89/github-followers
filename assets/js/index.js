@@ -11,6 +11,7 @@ var following =[];
 var fullURL;
 var username;
 
+// click on the get followers button
 
 $("#getFollowers").on("click", function(e) {
 	username = $("#username").val();
@@ -40,7 +41,6 @@ $("#getFollowers").on("click", function(e) {
 		}
 		$("#followers").append(JSON.stringify(followers));
 	}).fail(function error(err) {
-		// do something with the failure, like laugh at the user
 		console.error(err);
 	});
 })
@@ -59,10 +59,11 @@ $("#getFollowers").on("click", function(e) {
 			}
 			console.log(result);
 		}).fail(function error(err) {
-			// do something with the failure, like laugh at the user
 			console.error(err);
 		});
 })
+
+// click on the get following button
 
 $("#getFollowing").on("click", function(e) {
 	username = $("#username").val();
@@ -92,7 +93,6 @@ $("#getFollowing").on("click", function(e) {
 		}
 		$("#following").append(JSON.stringify(followers));
 	}).fail(function error(err) {
-		// do something with the failure, like laugh at the user
 		console.error(err);
 	});
 })
@@ -111,10 +111,11 @@ $("#getFollowing").on("click", function(e) {
 			}
 			console.log(result);
 		}).fail(function error(err) {
-			// do something with the failure, like laugh at the user
 			console.error(err);
 		});
 })
+
+// click on the compare button
 
 	$("#getCompare").on("click", function(e) {
 		username = $("#username").val();
@@ -131,7 +132,6 @@ $("#getFollowing").on("click", function(e) {
 			console.log(result);
 			$("#compare").append(JSON.stringify(result));
 		}).fail(function error(err) {
-			// do something with the failure, like laugh at the user
 			console.error(err);
 		});
 })
