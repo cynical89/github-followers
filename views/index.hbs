@@ -1,0 +1,23 @@
+<div class="container">
+
+	<div class="starter-template">
+		<h1>{{get_name}}</h1>
+		<p class="lead">{{get_name}} This was a quick prototype to fetch all your
+			followers, fetch those whom you have followed, and compare users whom
+			you have followed but they haven't followed you back.</p>
+	</div>
+	Github Username: <input id="username" /><br><br>
+	<button id="getFollowers">Get Followers</button>
+	<button id="getFollowing">Get Following</button>
+	<button id="getCompare">Compare followers</button>
+	<br /><br /><hr />
+	<p> People following you:</p>
+	<pre id="followers"></pre><br />
+	<p> People you follow:</p>
+	<pre id="following"></pre><br />
+	<p> People you follow who aren't following you:</p>
+	<pre id="compare"></pre>
+	<div id="saveFollowers"></div>
+	<div id="saveFollowing"></div>
+
+</div><!-- /.container -->

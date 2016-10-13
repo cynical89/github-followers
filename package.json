@@ -1,0 +1,47 @@
+{
+  "name": "github-check-followers",
+  "version": "1.0.0",
+  "description": "Compare people whom you follow, to those who follow you back",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -e js,hbs index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snollygolly/koa-starter.git"
+  },
+  "keywords": [
+    "koa",
+    "starter",
+    "starter-kit",
+    "handlebars",
+    "passport"
+  ],
+  "author": "snollygolly (@snollygolly)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snollygolly/koa-starter/issues"
+  },
+  "homepage": "https://github.com/snollygolly/koa-starter#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "co": "^4.6.0",
+    "cradle": "^0.7.1",
+    "github": "^5.2.0",
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-generic-session": "^1.10.0",
+    "koa-hbs": "^0.7.0",
+    "koa-passport": "^1.2.0",
+    "koa-router": "^5.3.0",
+    "koa-static-folder": "^0.1.6",
+    "octonode": "^0.7.6",
+    "passport-github": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "shipit-cli": "^1.4.1",
+    "shipit-deploy": "^2.1.2"
+  }
+}
