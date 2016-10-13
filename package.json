@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snollygolly/koa-starter.git"
+    "url": "git+https://github.com/cynical89/github-followers"
   },
   "keywords": [
     "koa",
@@ -18,12 +18,12 @@
     "handlebars",
     "passport"
   ],
-  "author": "snollygolly (@snollygolly)",
+  "author": "cynical89 (@cynical89)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/snollygolly/koa-starter/issues"
+    "url": "https://github.com/cynical89/github-followers/issues"
   },
-  "homepage": "https://github.com/snollygolly/koa-starter#readme",
+  "homepage": "https://github.com/cynical89/github-followers#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
     "co": "^4.6.0",
