@@ -3,6 +3,7 @@ A test using github's api to get followers, and people you follow from github, a
 
 ## Prerequisites
 * [Node.js](https://nodejs.org/en/) (Version 5 and up recommended)
+* [CouchDB](http://couchdb.apache.org) (with a database named githubusers)
 
 ### Installation
 
